@@ -15,18 +15,34 @@
     <![endif]-->
   </head>
   <body>
-    <div class="nav navbar">
-        <ul>
-
+    <div>
        <a href="../index.html">Home/</a>
         <a href="contact.html">Contact/</a>
         <a href="about.html">About</a>
-        </ul>
+      
     </div>
-    <img src="http://lorempixel.com/400/400/people/5" alt="Contact">
+<form>
+  <fieldset>
+    <legend>Enter your Contact info below:</legend>
+<p>
+    <label for="fullname">Full Name:</label><input type="text" name="fullname" id="fullname">
+</p>
+<p>
+    <label for="email">   Email:</label><input type="email" name="email" id="email">
+</p>
+<p>
+    <label for="yloc">   Loaction:</label>
+    <select name="" id="yloc">
+      <option value="0">Moon</option>
+      <option value="1">Earth</option>
+    </select>
+</p>
+<p><label for="quest">Your Question</label><br><textarea name="quest" id="" cols="50" rows="10" maxlength="500"></textarea></p>
+  </fieldset>
+
+</form>
     <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <script >
 
     </script>
